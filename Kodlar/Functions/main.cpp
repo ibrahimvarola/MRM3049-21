@@ -7,11 +7,14 @@ void ciz(float);
 
 int main() {
 float y=0.0;
-    for (int i = 0; i <= 360; i=i+18) {
+    
+    while(1)
+    {
+        for (int i = 0; i <= 360; i=i+18) {
         y= fsin(9,i);
         ciz(y);
     }
-
+    }
     return 0;
 }
 

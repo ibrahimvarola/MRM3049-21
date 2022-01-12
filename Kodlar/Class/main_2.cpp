@@ -50,6 +50,5 @@ int main() {
     birgun->ayarla(23, 04, 2022);
     cout << "Bayram :";
     cout << birgun->gun() << "/" << birgun->ay() << "/" << birgun->yil() << endl;
-
     return 0;
 }
